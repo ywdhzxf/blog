@@ -11,13 +11,13 @@ subtitle:
 description:
 keywords:
 author: 郑小飞
-language:
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url:  https://127.0.0.1
-root: /archives/
+url:  https://127.0.0.1/blog
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -83,7 +83,10 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/ywdhzxf/xiaofei_docs
+  branch: master
+
 
 # Custom Config
 menu:

@@ -82,10 +82,10 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-#deploy:
-#  type: git
-#  repository: https://github.com/ywdhzxf/xiaofei_docs
-#  branch: published
+deploy:
+  type: git
+  repository: https://github.com/ywdhzxf/ywdhzxf
+  branch: published
 
 
 # Custom Config
